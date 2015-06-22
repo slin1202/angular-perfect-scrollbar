@@ -177,6 +177,9 @@
         } else {
           scrollbarXStyles.top = scrollbarXTop + $this.scrollTop();
         }
+        scrollbarXStyles.left = 1;
+        
+
         $scrollbarXRail.css(scrollbarXStyles);
 
         var scrollbarYStyles = {top: $this.scrollTop(), height: containerHeight, display: scrollbarYActive ? "inherit": "none"};
